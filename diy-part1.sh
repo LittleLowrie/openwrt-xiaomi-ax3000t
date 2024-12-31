@@ -18,6 +18,3 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # add theme
-cd package/lean
-rm -rf luci-theme-argon
-git clone -b master https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argon
